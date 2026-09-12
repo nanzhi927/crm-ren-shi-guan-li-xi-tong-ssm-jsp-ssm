@@ -106,14 +106,14 @@ CREATE TABLE `employee` (
 -- ----------------------------
 -- Records of employee
 -- ----------------------------
-INSERT INTO employee VALUES ('1', '张三', '男', '13800000001', 'user1@example.com', '1', '本科', '18888*', '3', '广州', '2018-12-29 15:53:51');
+INSERT INTO employee VALUES ('1', '张三', '男', '13800000000', 'user1@example.com', '1', '本科', '18888*', '3', '广州', '2018-12-29 15:53:51');
 INSERT INTO employee VALUES ('2', '李四', '男', '1988888', 'user1@example.com', '2', '本科', '18888*', '1', '广州', '2018-12-25 10:55:24');
 INSERT INTO employee VALUES ('3', '王五', '男', '1988888', 'user1@example.com', '1', '本科', '18888*', '3', '广州', '2018-12-25 10:55:24');
 INSERT INTO employee VALUES ('5', '王柳', '男', '1988888', 'user1@example.com', '3', '本科', '18888*', '1', '广州', '2018-12-25 10:55:24');
 INSERT INTO employee VALUES ('6', '赵琦', '男', '1988888', 'user1@example.com', '1', '本科', '18888*', '4', '广州', '2018-12-25 10:55:24');
-INSERT INTO employee VALUES ('20', '测试用户', '男', '13800000002', 'user2@example.com', '2', '专科', '36856955696566556', '1', '上海', '2019-01-02 08:26:59');
-INSERT INTO employee VALUES ('21', 'Lucy', '女', '13800000003', 'user3@example.com', '1', '博士', '3856655666955633', '3', '美国', '2019-01-02 08:37:44');
-INSERT INTO employee VALUES ('22', '围观客', '男', '13800000004', 'user4@example.com', '2', '博士', '15656519850252145', '1', 'weiguanke.com', '2019-02-12 18:21:07');
+INSERT INTO employee VALUES ('20', '测试用户', '男', '13800000000', 'user2@example.com', '2', '专科', '36856955696566556', '1', '上海', '2019-01-02 08:26:59');
+INSERT INTO employee VALUES ('21', 'Lucy', '女', '13800000000', 'user3@example.com', '1', '博士', '3856655666955633', '3', '美国', '2019-01-02 08:37:44');
+INSERT INTO employee VALUES ('22', '围观客', '男', '13800000000', 'user4@example.com', '2', '博士', '13800000000252145', '1', 'weiguanke.com', '2019-02-12 18:21:07');
 
 -- ----------------------------
 -- Table structure for `position`

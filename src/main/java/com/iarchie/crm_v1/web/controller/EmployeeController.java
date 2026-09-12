@@ -51,7 +51,7 @@ public class EmployeeController {
         //解析前台传递的json数据
         JSONObject json = JSON.parseObject(data);
         if (json != null) {
-            //{"name":"测试用户1","sex":"男","phone":"13800000005","email":"user5@example.com",
+            //{"name":"测试用户1","sex":"男","phone":"13800000000","email":"user5@example.com",
             //"positionId":"2","eduschool":"专科","idcard":"382859958958946","deptId":"1","address":"广州"}
             String name = json.getString("name");
             String sex = json.getString("sex");
